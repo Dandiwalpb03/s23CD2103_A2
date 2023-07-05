@@ -1,0 +1,34 @@
+#roll-button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #roll-button:hover {
+    background-color: #45a049;
+  }
+  
+  .dice {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    color: white;
+  }
+  
+  .dice:nth-child(1) {
+    background-color: #009688;
+  }
+  
+  .dice:nth-child(2) {
+    background-color: #f44336;
+  }
+  
+  .dice:nth-child(3) {
+    background-color: #3f51b5;
+  }
+  
